@@ -1,0 +1,81 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/logs/main",
+    "pages/myInfo/main",
+    "pages/menu/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    },
+     {
+      "text": "菜单",
+      "pagePath": "pages/menu/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    },
+     {
+      "text": "个人中心",
+      "pagePath": "pages/myInfo/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    }
+  ],
+
+    "items": [{
+      "name": "首页",
+      "pagePath": "pages/index/main",
+      "icon": "static/tabs/home.png",
+      "activeIcon": "static/tabs/home-active.png"
+    }, 
+    {
+      "name": "菜单",
+      "pagePath": "pages/menu/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    },
+    {
+      "name": "个人中心",
+      "pagePath": "pages/myInfo/main",
+      "icon": "static/tabs/orders.png",
+      "activeIcon": "static/tabs/orders-active.png"
+    }
+  ],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "i-button": "static/iview/button/index",
+    "i-drawer": "static/iview/drawer/index",
+    "i-avatar": "static/iview/avatar/index",
+    "i-divider": "static/iview/divider/index",
+    "i-cell-group": "static/iview/cell-group/index",
+    "i-cell": "static/iview/cell/index",
+    "i-icon": "static/iview/icon/index",
+    "van-button": "static/vant/button/index",
+    "van-cell": "static/vant/cell/index",
+    "van-cell-group": "static/vant/cell-group/index",
+    "van-image": "static/vant/image/index",
+    "van-popup": "static/vant/popup/index",
+    "van-icon": "static/vant/icon/index",
+    "van-grid": "static/vant/grid/index",
+    "van-grid-item": "static/vant/grid-item/index",
+    "van-row": "static/vant/row/index",
+    "van-col": "static/vant/col/index",
+    "van-swipe-cell": "static/vant/swipe-cell/index"
+  }
+}
