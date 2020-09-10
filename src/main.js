@@ -9,7 +9,9 @@ import App from './App'
 
 // Vue.config.productionTip = false
 // App.mpType = 'app'
-
+import '../static/colorui/main.wxss';
+import '../static/colorui/icon.wxss';
+import '../static/colorui/animation.wxss';
 const app = new Vue(App)
 app.$mount()
 

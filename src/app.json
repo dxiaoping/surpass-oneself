@@ -9,7 +9,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
   },
   "tabBar": {
     "color": "#999",
@@ -77,5 +78,6 @@
     "van-row": "static/vant/row/index",
     "van-col": "static/vant/col/index",
     "van-swipe-cell": "static/vant/swipe-cell/index"
+
   }
 }

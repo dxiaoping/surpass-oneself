@@ -1,23 +1,98 @@
 <template>
   <div>
-    <van-row>
-      <!-- <van-col span='16'></van-col> -->
-      <van-col span="3" offset="20">
-        <van-icon name="wap-nav" size="30px" @click="showLeft" />
-      </van-col>
-    </van-row>
-    <van-popup
-      :show="show.left"
-      position="left"
-      custom-style="width: 40%; height: 90%"
-      @close="hideLeft"
-    >
-      <van-cell icon="shop-o" title="周计划管理" size="large" is-link />
-      <van-cell icon="shop-o" title="资金管理" size="large" is-link />
-      <van-cell icon="shop-o" title="人情管理" size="large" is-link />
-    </van-popup>
+    <cu-custom bgcolor="bg-gradual-pink" :isBack="true">
+      <view slot="backText">返回</view>
+      <view slot="content">时间轴</view>
+    </cu-custom>
+    <view class="cu-timeline">
+      <view class="cu-time">昨天</view>
+      <view class="cu-item cur cuIcon-noticefill">
+        <view class="content bg-green shadow-blur">
+          <text>22:22</text>【广州市】快件已到达地球
+        </view>
+      </view>
+      <view class="cu-item text-red cuIcon-attentionforbidfill">
+        <view class="content bg-red shadow-blur">这是第一次，我家的铲屎官走了这么久。久到足足有三天！！</view>
+      </view>
+      <view class="cu-item text-grey cuIcon-evaluate_fill">
+        <view class="content bg-grey shadow-blur">这是第一次，我家的铲屎官走了这么久。</view>
+      </view>
+      <view class="cu-item text-blue">
+        <view class="bg-blue content">
+          <text>20:00</text>【月球】快件已到达月球，准备发往地球
+        </view>
+        <view class="bg-cyan content">
+          <text>10:00</text>【银河系】快件已到达银河系，准备发往月球
+        </view>
+      </view>
+    </view>
 
-    
+    <view class="cu-timeline">
+      <view class="cu-time">06-17</view>
+      <view class="cu-item">
+        <view class="content">
+          <text>01:30</text>【喵星】 MX-12138 已揽收，准备发往银河系
+        </view>
+      </view>
+    </view>
+
+    <view class="cu-timeline">
+      <view class="cu-time">06-17</view>
+      <view class="cu-item">
+        <view class="content">
+          <view class="cu-capsule radius">
+            <view class="cu-tag bg-cyan">上午</view>
+            <view class="cu-tag line-cyan">10:00</view>
+          </view>
+          <view
+            class="margin-top"
+          >这是第一次，我家的铲屎官走了这么久。久到足足有三天！！ 在听到他的脚步声响在楼梯间的那一刻，我简直想要破门而出，对着他狠狠地吼上10分钟，然后再看心情要不要他进门。</view>
+        </view>
+      </view>
+      <view class="cu-item text-blue">
+        <view class="bg-blue shadow-blur content">
+          <view class="cu-list menu-avatar radius">
+            <view class="cu-item">
+              <view
+                class="cu-avatar round lg"
+                style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"
+              ></view>
+              <view class="content">
+                <view class="text-grey">文晓港</view>
+                <view class="text-gray text-sm">
+                  <text class="cuIcon-infofill text-red"></text>消息未送达
+                </view>
+              </view>
+              <view class="action">
+                <view class="text-grey text-xs">22:20</view>
+                <view class="cu-tag round bg-grey sm">5</view>
+              </view>
+            </view>
+            <view class="cu-item">
+              <view
+                class="cu-avatar round lg"
+                style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"
+              >
+                <view class="cu-tag badge">99+</view>
+              </view>
+              <view class="content">
+                <view class="text-grey">
+                  文晓港
+                  <view class="cu-tag round orange sm">SVIP</view>
+                </view>
+                <view class="text-gray text-sm">
+                  <text class="cuIcon-redpacket_fill text-red"></text>收到红包
+                </view>
+              </view>
+              <view class="action">
+                <view class="text-grey text-xs">22:20</view>
+                <text class="cuIcon-notice_forbid_fill text-gray"></text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
   </div>
 </template>
 
