@@ -3,6 +3,7 @@
     "pages/index/main",
     "pages/logs/main",
     "pages/myInfo/main",
+    "pages/timeAxis/main",
     "pages/menu/main"
   ],
   "window": {

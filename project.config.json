@@ -24,13 +24,13 @@
 			"outputPath": ""
 		},
 		"useIsolateContext": true,
-		"useCompilerModule": false,
+		"useCompilerModule": true,
 		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"miniprogramRoot": "dist/wx/",
 	"compileType": "miniprogram",
 	"appid": "wx53a85302a969df17",
-	"projectname": "firstapp",
+	"projectname": "surpass-oneself",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
