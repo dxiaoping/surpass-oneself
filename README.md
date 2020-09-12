@@ -1,4 +1,4 @@
-# vuechat
+# Mpvue + vant + colorUI
 
 > A Mpvue project
 
@@ -33,5 +33,12 @@ npm build:my
 # 生成 bundle 分析报告
 npm run build --report
 ```
+## 项目描述
+>该项目主要管理用户的日常，包括学习任务、工作任务、未来目标、资金管理、资金流向~~~
+>* 四六级词汇库构建
+>* 任务库构建
+>* 随机构建第二天任务
+>* 任务奖励机制
+>* 支付宝充值提现
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

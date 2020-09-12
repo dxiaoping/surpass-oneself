@@ -60,7 +60,7 @@
 				{
 					"id": -1,
 					"name": "个人中心",
-					"pathName": "pages/myInfo/main",
+					"pathName": "pages/user-center/main",
 					"query": "",
 					"scene": null
 				},

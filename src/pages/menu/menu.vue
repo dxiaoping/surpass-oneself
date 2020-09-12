@@ -1,3 +1,6 @@
+<!--系统管理-->
+<!--用于生产资料管理-->
+
 <template>
   <div>
     <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000">

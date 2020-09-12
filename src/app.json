@@ -1,17 +1,23 @@
 {
   "pages": [
     "pages/index/main",
-    "pages/logs/main",
-    "pages/myInfo/main",
-    "pages/timeAxis/main",
-    "pages/menu/main"
+    "pages/template/main",
+    "pages/menu/main",
+    "pages/user-center/main",
+    "pages/user-center/task-today-finish/main",
+    "pages/user-center/photography/main",
+    "pages/user-center/contacts/main",
+    "pages/user-center/plan-week/main",
+    "pages/user-center/time-axis/main",
+    "pages/user-center/task-tomorrow-plan/main",
+    "pages/user-center/capital-manage/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black",
-    "navigationStyle": "custom"
+    "navigationStyle": "default"
   },
   "tabBar": {
     "color": "#999",
@@ -33,31 +39,13 @@
     },
      {
       "text": "个人中心",
-      "pagePath": "pages/myInfo/main",
+      "pagePath": "pages/user-center/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
     }
   ],
 
-    "items": [{
-      "name": "首页",
-      "pagePath": "pages/index/main",
-      "icon": "static/tabs/home.png",
-      "activeIcon": "static/tabs/home-active.png"
-    }, 
-    {
-      "name": "菜单",
-      "pagePath": "pages/menu/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
-    },
-    {
-      "name": "个人中心",
-      "pagePath": "pages/myInfo/main",
-      "icon": "static/tabs/orders.png",
-      "activeIcon": "static/tabs/orders-active.png"
-    }
-  ],
+   
     "position": "bottom"
   },
   "usingComponents": {
