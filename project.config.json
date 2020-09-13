@@ -68,6 +68,13 @@
 					"id": -1,
 					"name": "菜单",
 					"pathName": "pages/menu/main",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "资金管理",
+					"pathName": "pages/user-center/capital-manage/main",
 					"scene": null
 				}
 			]
