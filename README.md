@@ -40,5 +40,6 @@ npm run build --report
 >* 随机构建第二天任务
 >* 任务奖励机制
 >* 支付宝充值提现
+>* 消息推送
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
