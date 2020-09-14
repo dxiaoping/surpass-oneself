@@ -35,17 +35,21 @@
         <text class="cuIcon-title text-blue"></text>资金规划
       </view>
     </view>
-    <view class="padding bg-white">
+     <view class="padding bg-white">
       <view class="flex">
-        <view class="flex-sub bg-grey padding-sm margin-xs radius text-center">薪资收入</view>
+        <view class="flex-sub bg-grey padding-sm margin-xs radius text-center">饮食</view>
         <view class="flex-treble bg-grey padding-sm margin-xs radius">3</view>
       </view>
       <view class="flex">
-        <view class="flex-sub bg-grey padding-sm margin-xs radius text-center">本月支出</view>
+        <view class="flex-sub bg-grey padding-sm margin-xs radius text-center">人情</view>
         <view class="flex-treble bg-grey padding-sm margin-xs radius">3</view>
       </view>
       <view class="flex">
-        <view class="flex-sub bg-grey padding-sm margin-xs radius text-center">本月存储</view>
+        <view class="flex-sub bg-grey padding-sm margin-xs radius text-center">购物</view>
+        <view class="flex-treble bg-grey padding-sm margin-xs radius">3</view>
+      </view>
+      <view class="flex">
+        <view class="flex-sub bg-grey padding-sm margin-xs radius text-center">临时</view>
         <view class="flex-treble bg-grey padding-sm margin-xs radius">3</view>
       </view>
     </view>
@@ -69,30 +73,6 @@
         <view class="flex-treble bg-grey padding-sm margin-xs radius">3</view>
       </view>
     </view>
-    <!--
-  
-    <view class="padding bg-white">
-      <view class="flex p-xs margin-bottom-sm mb-sm">
-        <view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
-        <view class="flex-twice bg-grey padding-sm margin-xs radius">2</view>
-      </view>
-      <view class="flex p-xs margin-bottom-sm mb-sm">
-        <view class="flex-sub bg-grey padding-sm margin-xs radius">1</view>
-        <view class="flex-twice bg-grey padding-sm margin-xs radius">2</view>
-        <view class="flex-treble bg-grey padding-sm margin-xs radius">3</view>
-      </view>
-
-      <view class="flex flex-wrap">
-        <view class="basis-xs bg-grey margin-xs padding-sm radius">xs(20%)</view>
-        <view class="basis-df"></view>
-        <view class="basis-sm bg-grey margin-xs padding-sm radius">sm(40%)</view>
-        <view class="basis-df"></view>
-        <view class="basis-df bg-grey margin-xs padding-sm radius">sub(50%)</view>
-        <view class="basis-lg bg-grey margin-xs padding-sm radius">lg(60%)</view>
-        <view class="basis-xl bg-grey margin-xs padding-sm radius">xl(80%)</view>
-      </view>
-    </view>
-    -->
   </div>
 </template>
 

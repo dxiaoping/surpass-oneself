@@ -86,6 +86,12 @@ export default {
           value: "内容",
           url: "/pages/user-center/photography/main",
           linkType: "navigateTo"
+        },
+        {
+          title: "设置",
+          value: "",
+          url: "/pages/user-center/photography/main",
+          linkType: "navigateTo"
         }
       ]
     };
