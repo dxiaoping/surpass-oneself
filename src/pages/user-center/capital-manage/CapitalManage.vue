@@ -1,16 +1,12 @@
 <!--资金管理-->
 <template>
   <div>
+    <button @click="change">按钮</button>
+    <view></view>
     <view class="cu-form-group">
       <view class="title">日期选择</view>
-      <picker
-        mode="date"
-        :value="date"
-        start="2015-09-01"
-        end="2020-09-01"
-        bindchange="DateChange"
-      >
-        <view class="picker" text>{{date}}</view>
+      <picker mode="date" :value="date" start="2015-09-01" end="2020-09-01" @change="DateChange">
+        <view class="picker">{{date}}</view>
       </picker>
     </view>
 
@@ -105,20 +101,25 @@ export default {
   data() {
     return {
       show: {
-        basic: false
-      }
+        basic: false,
+        
+      },
+      date: '2018-12-25',
     };
   },
   methods: {
-    toggle(type, show) {
-      this.show[type] = show;
-      console.log(this.show.left);
+    DateChange(e) {
+      console.log("变更时间",e)
+      this.date = e.target.value
+    },
+    change(e){
+      console.log("变更时间",e)
     }
   }
 };
 </script>
 
-<style scoped>
+<style>
 .message {
   color: red;
   padding: 10px;
