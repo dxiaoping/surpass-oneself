@@ -11,7 +11,7 @@
       indicator-dots="true"
       circular="true"
       autoplay="true"
-      interval="5000"
+      interval="3000"
       duration="500"
       @change="cardSwiper"
       indicator-color="#8799a3"

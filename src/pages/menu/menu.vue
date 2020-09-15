@@ -25,7 +25,7 @@
         v-for="(item,index) in menuList"
         :key="index"
         link-type="navigateTo"
-        url="/pages/dashboard/index"
+        :url="item.url"
       >
         <!-- <image style="width: 60px; height: 60px;"
         :src="item.img"/>-->
@@ -44,7 +44,7 @@ export default {
             showRight2: false,
             menuList:[
                 {title: '四级单词库',img:'https://i.loli.net/2017/08/21/599a521472424.jpg',url:''},
-                {title: '日常任务库',img:'https://i.loli.net/2017/08/21/599a521472424.jpg',url:''},
+                {title: '任务中心',img:'https://i.loli.net/2017/08/21/599a521472424.jpg',url:'/pages/menu/task-center/main'},
                 {title: '四级单词库',img:'https://i.loli.net/2017/08/21/599a521472424.jpg',url:''},
                 {title: '四级单词库',img:'https://i.loli.net/2017/08/21/599a521472424.jpg',url:''},
                 {title: '四级单词库',img:'https://i.loli.net/2017/08/21/599a521472424.jpg',url:''},

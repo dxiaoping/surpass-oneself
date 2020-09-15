@@ -3,6 +3,7 @@
     "pages/index/main",
     "pages/template/main",
     "pages/menu/main",
+    "pages/menu/task-center/main",
     "pages/user-center/main",
     "pages/user-center/task-today-finish/main",
     "pages/user-center/photography/main",
@@ -66,6 +67,7 @@
     "van-grid-item": "static/vant/grid-item/index",
     "van-row": "static/vant/row/index",
     "van-col": "static/vant/col/index",
+    "van-calendar": "static/vant/calendar/index",
     "van-swipe-cell": "static/vant/swipe-cell/index"
 
   }
